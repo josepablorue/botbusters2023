@@ -238,13 +238,13 @@ public class Robot extends TimedRobot {
  * Función que le asigna 0.5 de velocidad al motor del intake al ser llamada
  */
   public void intakeFunc() {
-    intake1.set(0.5);
+    intake1.set(0.9);
   }
 /**
  * Función que le asigna velocidad negativa el motos del intake, usada para sacar la nota que tenga dentro
  */
   public void notIntakeFunc() {
-    intake1.set(-0.5);
+    intake1.set(-0.9);
   }
 /**
  * Función que lleva el pivoteo hasta la posición 20 del encoder manteniendo el motor energizado de manera indefinida
